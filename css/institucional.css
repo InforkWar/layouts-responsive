@@ -8,6 +8,7 @@
 
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-color: white;
 }
 
 .institucional__titulo {
@@ -50,5 +51,14 @@
 }
 
 .institucional__video {
-    width: 100vw;
+    width: 50vw;
+    height: 50%;
+    box-shadow: 0 0 10px 10px #545454;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .institucional__video{
+        width: 90%;
+    }
 }
